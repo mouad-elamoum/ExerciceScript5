@@ -1,4 +1,6 @@
-read ' entrez le premier nombre' var1
-read 'entrez le deuxieme nombre' var2
-som= var1+var2
-echo $ som
+echo "nb1"
+read nb1
+echo "nb2"
+read nb2
+sum=$(expr $nb1 + $nb2)
+echo "$sum"
